@@ -11,8 +11,6 @@ public class ballScript : MonoBehaviour
             // destroys the banana when touched and adds to the score
             score += 1;
             Destroy(other.gameObject);
-
-
         }
 
     }
